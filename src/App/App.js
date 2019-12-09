@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <button className='btn btn-danger'>HELP ME</button>
         <a
           className="App-link"
           href="https://reactjs.org"
